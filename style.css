@@ -1,0 +1,46 @@
+body{
+    background: url("alex-shutin-kKvQJ6rK6S4-unsplash.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    margin: 13% 0% 0% 37%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+}
+input[type="button"] { 
+    width: 100%; 
+    padding: 25px 37px; 
+    background-color: rgb(40, 61, 86); 
+    color: white; 
+    font-size: 29px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 20px; 
+    margin-left: 9%;
+} 
+
+input[type="text"] { 
+    text-decoration: none;
+    outline: none;
+    padding: 25px 0px;
+    margin-left: 3%;
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 20px; 
+    border: 1px solid black; 
+} 
